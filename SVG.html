@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<title>SVG</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">    
+<style>
+    img{
+        width: 100%
+        height: auto
+    }
+</style>
+<body>
+    <div class="w3-container w3-orange">
+        <div class="w3-text-white">    
+            <h1>SVG</h1>
+            <p>Show a Scalable Vector Graphics (Graphic size will change with window's width and height.)</p>
+        </div>
+        
+    </div>
+    <div class="w3-container w3-yellow">   
+        <svg height=100% width=100%>
+        <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+            </linearGradient>
+        </defs>
+            
+        <circle cx="50%" cy="50%" r="10%" stroke="pink" stroke-width="3" fill="url(#grad1)" />
+        
+        </svg>
+    </div>
+    <img src ="landscape-1844230_1280.png" width= 100% height= auto>        
+    
+</body>
+</html>
+
