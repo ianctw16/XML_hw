@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE order_list [
+    <!ELEMENT order_stock   (order_id, order_status, payment_method, customer_name, custmer_id, product_1_name, product_1_price, product_2_name, product_2_price)>
+    
+    <!ELEMENT order_scheduled   (order_id, order_status, payment_method, customer_name, custmer_id, product_1_name, product_1_price, product_2_name, product_2_price)>
+    
+    <!ELEMENT order_id  (#PCDATA)>
+    <!ELEMENT order_status  (#PCDATA)>
+    <!ATTLIST payment_method  (credit_card|cash) "cash">
+    <!ELEMENT customer_name  (#PCDATA)>
+    <!ELEMENT customer_id    (#PCDATA)>
+    <!ELEMENT product_1_name    (#PCDATA)>
+    <!ELEMENT product_1_price  (#PCDATA)>
+    <!ELEMENT product_2_name  (#PCDATA)>
+    <!ELEMENT product_2_price    (#PCDATA)>
+]>

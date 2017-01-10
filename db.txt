@@ -1,0 +1,13 @@
+DB:e-Commerce website
+
+Table:order_list
+order type:stock/scheduled
+order_id:
+order_status:
+payment method:
+customer name:
+customer id:
+product 1 name:
+product 1 price:
+product 2 name:
+product 2 price:
