@@ -2,50 +2,68 @@
 <order_list>
     <order_sotck>
         <order_id>
+            0001
         </order_id>
         <order_status>
+            in stock
         </order_status>
         <payment_method>
             <credit_card>
+                1
             </credit_card>
             <cash>
             </cash>
         </payment_method>
         <customer_name>
+            Ian
         </customer_name>
-        <customer_id>    
+        <customer_id>
+            777
         </customer_id>
         <product_1_name>
+            Sony 55x700d
         </product_1_name>
         <product_1_price>
+            $900
         </product_1_price>
         <product_2_name>
+            PS4 Pro
         </product_2_name>
         <product_2_price>
+            $400
         </product_2_price>
     </order_sotck>
     <order_scheduled>
         <order_id>
+            0002
         </order_id>
         <order_status>
+            Purchasing
         </order_status>
         <payment_method>
             <credit_card>
             </credit_card>
             <cash>
+                1
             </cash>
         </payment_method>
         <customer_name>
+            Judy
         </customer_name>
-        <customer_id>    
+        <customer_id>
+            666
         </customer_id>
         <product_1_name>
+            iPhone 7 black 64G
         </product_1_name>
         <product_1_price>
+            $800
         </product_1_price>
         <product_2_name>
+            iWatch series2 black stanless
         </product_2_name>
         <product_2_price>
+            $600
         </product_2_price>
     </order_scheduled>
 </order_list>
